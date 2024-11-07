@@ -1,13 +1,14 @@
 public class Book {
     private String name;
-           private int year;
-            private String author;
-//создаю конструктор со всеми полями
-    public Book(String name, int year, String author) {
+    private int year;
+    private String Author;
+
+    //создаю конструктор со всеми полями
+    public Book(String name, int year, String Author) {
         this.name = name;
         this.year = year;
-        this.author = author;
     }
+
     public String getName() {
         return name;
     }
@@ -25,11 +26,11 @@ public class Book {
     }
 
     public String getAuthor() {
-        return author;
+        return Author;
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        Author = author;
     }
 }
 

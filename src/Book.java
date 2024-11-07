@@ -1,12 +1,12 @@
 public class Book {
     private String name;
     private int year;
-    private String Author;
-
+    private Author author;
     //создаю конструктор со всеми полями
-    public Book(String name, int year, String Author) {
+    public Book(String name, int year, Author author) {
         this.name = name;
         this.year = year;
+        this.author = author;
     }
 
     public String getName() {
@@ -25,12 +25,21 @@ public class Book {
         this.year = year;
     }
 
-    public String getAuthor() {
-        return Author;
+    public Author getAuthor() {
+        return author;
     }
 
-    public void setAuthor(String author) {
-        Author = author;
+    public void setAuthor(Author author) {
+        this.author = author;
     }
-}
+
+//    @Override
+//    public String toString() {
+//        return "Book{" +
+//                "name='" + name + '\'' +
+//                ", year=" + year +
+//                ", author=" + author +
+//                '}';
+    }
+
 

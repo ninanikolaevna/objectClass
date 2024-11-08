@@ -2,7 +2,7 @@ public class Book {
     private String name;
     private int year;
     private Author author;
-    //создаю конструктор со всеми полями
+
     public Book(String name, int year, Author author) {
         this.name = name;
         this.year = year;
@@ -33,13 +33,7 @@ public class Book {
         this.author = author;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Book{" +
-//                "name='" + name + '\'' +
-//                ", year=" + year +
-//                ", author=" + author +
-//                '}';
-    }
+
+}
 
 

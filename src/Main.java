@@ -12,7 +12,7 @@ public class Main {
                 book1.getAuthor().getFirstName(),
                 book1.getAuthor().getLastName()
         );
-        //   System.out.println(book1);
+
         Book book2 = new Book("Война и мир",
                 1900,
                 new Author("Лев", "Толстой")
